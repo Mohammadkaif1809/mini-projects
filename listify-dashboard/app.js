@@ -61,7 +61,7 @@ let taskManager={
  add:function(){
 
   const newItem=document.createElement("li");
-  newItem.className="task-list-item flex items-center justify-between bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:border-orange-200 hover:shadow-md transition-all duration-300";
+  newItem.className="task-list-item flex items-center justify-between bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:border-orange-200 hover:shadow-md transition-all duration-300 mb-2";
   
   let tickContainer=document.createElement('div');
   tickContainer.className="flex items-center gap-4 text-slate-700";
