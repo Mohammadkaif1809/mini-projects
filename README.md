@@ -1,34 +1,70 @@
 # Mini Projects
 
-This repository contains my frontend mini projects built using **HTML, CSS, and JavaScript**. Each project focuses on practicing core concepts and building clean, responsive user interfaces.
+This repository contains my mini projects built using **HTML, CSS, and JavaScript**.  
+Each project focuses on practicing core concepts and building **clean, modern, and fully responsive user interfaces**.
 
+All projects are optimized for **mobile, tablet, and desktop screens**.
 
-### 🔐 Password Generator
+---
+
+## 🔐 Password Generator
 
 A simple random password generator with copy and show/hide functionality.
-**Live Demo:**
+
+**Features:**
+- Random secure password generation  
+- Copy to clipboard  
+- Show / hide password  
+- Responsive design  
+
+🔗 **Live Demo:**  
 https://mohammadkaif1809.github.io/mini-projects/password-generator/
 
 ---
 
-### 👤 User Manager Dashboard
+## 👤 User Manager Dashboard
 
 A lightweight profile management app with add/delete functionality and localStorage persistence.
-**Live Demo:**
+
+**Features:**
+- Add and delete users  
+- LocalStorage data persistence  
+- Clean dashboard UI  
+- Fully responsive layout  
+
+🔗 **Live Demo:**  
 https://mohammadkaif1809.github.io/mini-projects/user-manager/
+
+---
+
+## ✅ Listify Dashboard
+
+A modern task management dashboard with smooth animations and persistent storage.
+
+**Features:**
+- Add and delete tasks  
+- LocalStorage persistence  
+- Smooth UI animations  
+- Premium responsive design  
+- Mobile-first layout  
+
+🔗 **Live Demo:**  
+https://mohammadkaif1809.github.io/mini-projects/listify-dashboard/
 
 ---
 
 ## 🛠 Tech Stack
 
-* HTML
-* CSS / Tailwind CSS
-* JavaScript
+- HTML5  
+- CSS3 / Tailwind CSS  
+- JavaScript (Vanilla)  
+- LocalStorage API  
 
 ---
 
 ## 👨‍💻 Author
 
 **Mohammad Kaif**
-GitHub: https://github.com/Mohammadkaif1809
+
+---
 
