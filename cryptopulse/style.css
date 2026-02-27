@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
 
 :root {
---bg-overlay-1: rgba(18, 18, 18,95);
---bg-overlay-2: rgba(9, 9, 11,0.70);
-    
-    --accent-main: #00E5FF;
-    --accent-light: #3282F6;
-    --accent-glow: rgba(0, 229, 255, 0.25);
-    
-    --text-primary: #FAFAFA;
-    --text-secondary: #A1A1AA; 
-    
-   
-    --card-bg: rgba(15, 23, 42, 0.4); 
-    --card-border: rgba(255, 255, 255, 0.08);
-    --shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --bg-overlay-1: rgba(18, 18, 18, 0.70);
+  --bg-overlay-2: rgba(9, 9, 11, 0.50);
+
+  --accent-main: #00E5FF;
+  --accent-light: #3282F6;
+  --accent-glow: rgba(0, 229, 255, 0.25);
+
+  --text-primary: #FAFAFA;
+  --text-secondary: #A1A1AA;
+
+  --card-bg: rgba(15, 23, 42, 0.4);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -29,16 +29,35 @@ html {
 }
 
 .container {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, var(--bg-overlay-1), var(--bg-overlay-2)), url('/cryptocurrency-img/images/bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--text-primary);
-    padding: 0 7%;
-    position: relative;
-    overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  background:
+  linear-gradient(
+    135deg,
+    rgba(5, 8, 20, 0.95) 0%,
+    rgba(8, 10, 25, 0.92) 50%,
+    rgba(10, 12, 30, 0.88) 100%
+  ),
+  url('./cryptocurrency-img/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text-primary);
+  padding: 0 7%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 70% 40%,
+    rgba(0, 229, 255, 0.08),
+    transparent 60%
+  );
+  pointer-events: none;
 }
 
 nav {
@@ -274,6 +293,12 @@ nav .btn:hover {
         display: none;
     }
 
+    .market-title {
+            padding: 0;
+            padding-left: 8px;
+            margin: 0;
+            margin-bottom: 20px;
+    }
     nav .btn {
         border: 3px solid rgba(255, 255, 255, 0.5);
         padding: 4px 6px;
