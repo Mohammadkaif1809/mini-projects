@@ -1,70 +1,96 @@
-# Mini Projects
+🚀 Mini Projects
 
-This repository contains my mini projects built using **HTML, CSS, and JavaScript**.  
-Each project focuses on practicing core concepts and building **clean, modern, and fully responsive user interfaces**.
+This repository contains my mini projects built using HTML, CSS, and JavaScript.
+Each project focuses on practicing core concepts and building clean, modern, and fully responsive user interfaces.
 
-All projects are optimized for **mobile, tablet, and desktop screens**.
+All projects are optimized for mobile, tablet, and desktop screens.
 
----
-
-## 🔐 Password Generator
+🔐 Password Generator
 
 A simple random password generator with copy and show/hide functionality.
 
-**Features:**
-- Random secure password generation  
-- Copy to clipboard  
-- Show / hide password  
-- Responsive design  
+Features
 
-🔗 **Live Demo:**  
+Random secure password generation
+
+Copy to clipboard
+
+Show / hide password
+
+Responsive design
+
+🔗 Live Demo:
 https://mohammadkaif1809.github.io/mini-projects/password-generator/
 
----
+👤 User Manager Dashboard
 
-## 👤 User Manager Dashboard
+A lightweight profile management app with add/delete functionality and LocalStorage persistence.
 
-A lightweight profile management app with add/delete functionality and localStorage persistence.
+Features
 
-**Features:**
-- Add and delete users  
-- LocalStorage data persistence  
-- Clean dashboard UI  
-- Fully responsive layout  
+Add and delete users
 
-🔗 **Live Demo:**  
+LocalStorage data persistence
+
+Clean dashboard UI
+
+Fully responsive layout
+
+🔗 Live Demo:
 https://mohammadkaif1809.github.io/mini-projects/user-manager/
 
----
-
-## ✅ Listify Dashboard
+✅ Listify Dashboard
 
 A modern task management dashboard with smooth animations and persistent storage.
 
-**Features:**
-- Add and delete tasks  
-- LocalStorage persistence  
-- Smooth UI animations  
-- Premium responsive design  
-- Mobile-first layout  
+Features
 
-🔗 **Live Demo:**  
+Add and delete tasks
+
+LocalStorage persistence
+
+Smooth UI animations
+
+Premium responsive design
+
+Mobile-first layout
+
+🔗 Live Demo:
 https://mohammadkaif1809.github.io/mini-projects/listify-dashboard/
 
----
+💹 CryptoPulse
 
-## 🛠 Tech Stack
+A modern cryptocurrency tracking web app that displays real-time market data with a premium Web3 UI.
 
-- HTML5  
-- CSS3 / Tailwind CSS  
-- JavaScript (Vanilla)  
-- LocalStorage API  
+Features
 
----
+Live crypto price tracking (CoinGecko API)
 
-## 👨‍💻 Author
+Dynamic market rendering
 
-**Mohammad Kaif**
+Smooth scroll animations
 
----
+Premium glassmorphism UI
 
+Fully responsive design
+
+Mobile-first layout
+
+🔗 Live Demo:
+https://mohammadkaif1809.github.io/mini-projects/cryptopulse/
+
+🛠 Tech Stack
+
+HTML5
+
+CSS3 / Tailwind CSS
+
+JavaScript (Vanilla)
+
+LocalStorage API
+
+REST APIs (CoinGecko)
+
+👨‍💻 Author
+
+Mohammad Kaif
