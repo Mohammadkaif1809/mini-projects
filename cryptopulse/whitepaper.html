@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whitepaper — CryptoPulse</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .whitepaper-container {
+      max-width: 900px;
+      margin: 120px auto;
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
+      padding: 40px;
+      border-radius: 20px;
+      color: var(--text-primary);
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .whitepaper-container h1 {
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 25px;
+      background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .whitepaper-container h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: var(--text-primary);
+    }
+
+    .whitepaper-container p,
+    .whitepaper-container li {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+
+    .whitepaper-container ul {
+      padding-left: 20px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+      color: #09090B; 
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: all 0.25s ease;
+    }
+
+    .back-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px var(--accent-glow);
+    }
+  </style>
+
+</head>
+
+<body>
+    <nav class="fade-up fade-delay-1">
+        <a href="index.html" class="brand">
+            <svg src="cryptocurrency-img/images/logo.png" class="logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="3" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                    <linearGradient id="cyanBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00E5FF" />
+                    <stop offset="100%" stop-color="#3282F6" />
+                    </linearGradient>
+                </defs>
+
+                <path d="M50 5 L90 27.5 V72.5 L50 95 L10 72.5 V27.5 Z" 
+                        stroke="url(#cyanBlueGradient)" 
+                        stroke-width="5" 
+                        stroke-linejoin="round" 
+                        filter="url(#neonGlow)"/>
+
+                <path d="M 18 50 L 35 50 L 45 25 L 55 75 L 65 50 L 82 50" 
+                        stroke="url(#cyanBlueGradient)" 
+                        stroke-width="6" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        filter="url(#neonGlow)"/>
+                        
+                <circle cx="45" cy="25" r="4.5" fill="#FAFAFA" />
+                <circle cx="55" cy="75" r="4.5" fill="#FAFAFA" />
+                </svg>
+            <span class="brand-name">CryptoPulse</span>
+        </a>
+
+        <ul>
+            <li><a href="index.html#market-section">Market</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="whitepaper.html">White papers</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <a href="#" class="btn">EN</a>
+    </nav>
+
+    <div class="container">
+      <div class="whitepaper-container fade-up fade-delay-2">
+
+        <h1>CryptoPulse Whitepaper</h1>
+
+        <h2>Project Overview</h2>
+        <p>
+          CryptoPulse is a frontend-focused cryptocurrency tracking platform
+          designed to display real-time digital asset data in a clean,
+          responsive, and user-friendly interface.
+        </p>
+
+        <h2>Technology Stack</h2>
+        <ul>
+          <li>HTML5 for semantic structure</li>
+          <li>CSS3 for modern responsive styling</li>
+          <li>Vanilla JavaScript (ES6+) for dynamic behavior</li>
+          <li>CoinGecko REST API for live crypto market data</li>
+        </ul>
+
+        <h2>Core Features</h2>
+        <ul>
+          <li>Live cryptocurrency price tracking</li>
+          <li>Dynamic DOM rendering</li>
+          <li>Responsive mobile-first layout</li>
+          <li>Smooth scroll and reveal animations</li>
+          <li>Market-cap based coin listing</li>
+        </ul>
+
+        <h2>Future Improvements</h2>
+        <ul>
+          <li>React.js migration</li>
+          <li>Advanced price charts</li>
+          <li>Portfolio tracking</li>
+          <li>Search and filtering</li>
+          <li>Dark/light theme toggle</li>
+        </ul>
+
+        <h2>Developer</h2>
+        <p>
+          Built by <strong>Mohammad Kaif</strong> 
+        </p>
+
+        <a href="index.html" class="back-btn">← Back to Home</a>
+
+      </div>
+    </div>
+</body>
+</html>

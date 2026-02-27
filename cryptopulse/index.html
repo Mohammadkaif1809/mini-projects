@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoPulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <nav class="fade-up fade-delay-1">
+      <a href="index.html" class="brand">
+        <svg src="cryptocurrency-img/images/logo.png" class="logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+            <linearGradient id="cyanBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00E5FF" />
+            <stop offset="100%" stop-color="#3282F6" />
+            </linearGradient>
+        </defs>
+
+        <path d="M50 5 L90 27.5 V72.5 L50 95 L10 72.5 V27.5 Z" 
+                stroke="url(#cyanBlueGradient)" 
+                stroke-width="5" 
+                stroke-linejoin="round" 
+                filter="url(#neonGlow)"/>
+
+        <path d="M 18 50 L 35 50 L 45 25 L 55 75 L 65 50 L 82 50" 
+                stroke="url(#cyanBlueGradient)" 
+                stroke-width="6" 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                filter="url(#neonGlow)"/>
+                
+        <circle cx="45" cy="25" r="4.5" fill="#FAFAFA" />
+        <circle cx="55" cy="75" r="4.5" fill="#FAFAFA" />
+        </svg>
+        <span class="brand-name">CryptoPulse</span>
+      </a>
+
+      <ul>
+        <li><a href="#market-section">Market</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="whitepaper.html">White papers</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+
+      <a href="#" class="btn">EN</a>
+    </nav>
+
+    <div class="content fade-up fade-delay-2">
+      <h1>BUY & <br /> SELL <span>Crypto</span></h1>
+      <p>
+        Trade and track cryptocurrencies in real time with a fast, secure, and modern experience.
+        </p>
+      <a href="#" class="btn-primary">EXPLORE MORE</a>
+    </div>
+
+    <section id="market-section">
+      <h2 class="market-title fade-up fade-delay-4">Live Market</h2>
+      <div class="coin-list fade-up fade-delay-4" id="market"></div>
+    </section>
+
+    <section class="features fade-up fade-delay-3" id="features">
+      <h2>Powerful Features</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Real-Time Prices</h3>
+          <p>Track live cryptocurrency prices powered by the CoinGecko API with fast and reliable updates.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Dynamic Market Data</h3>
+          <p>Automatically renders top cryptocurrencies with market rankings and latest pricing data.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Fully Responsive</h3>
+          <p>Optimized for desktop, tablet, and mobile devices with a clean modern layout.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Smooth Animations</h3>
+          <p>Premium scroll animations and interactive UI for a modern user experience.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — CryptoPulse</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .about-container {
+      max-width: 900px;
+      margin: 120px auto;
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
+      padding: 40px;
+      border-radius: 20px;
+      color: var(--text-primary);
+      text-align: center;
+      box-shadow: var(--shadow-subtle);
+      animation: fadeUp 0.8s ease forwards;
+    }
+
+    .about-container h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block; 
+    }
+
+    .about-container p {
+      line-height: 1.7;
+
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+      color: #09090B; 
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: all 0.25s ease;
+    }
+
+    .back-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px var(--accent-glow);
+    }
+  </style>
+
+</head>
+
+<body>
+    <nav class="fade-up fade-delay-1">
+        <a href="index.html" class="brand">
+                        <svg src="cryptocurrency-img/images/logo.png" class="logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="3" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                    <linearGradient id="cyanBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00E5FF" />
+                    <stop offset="100%" stop-color="#3282F6" />
+                    </linearGradient>
+                </defs>
+
+                <path d="M50 5 L90 27.5 V72.5 L50 95 L10 72.5 V27.5 Z" 
+                        stroke="url(#cyanBlueGradient)" 
+                        stroke-width="5" 
+                        stroke-linejoin="round" 
+                        filter="url(#neonGlow)"/>
+
+                <path d="M 18 50 L 35 50 L 45 25 L 55 75 L 65 50 L 82 50" 
+                        stroke="url(#cyanBlueGradient)" 
+                        stroke-width="6" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        filter="url(#neonGlow)"/>
+                        
+                <circle cx="45" cy="25" r="4.5" fill="#FAFAFA" />
+                <circle cx="55" cy="75" r="4.5" fill="#FAFAFA" />
+                </svg>
+            <span class="brand-name">CryptoPulse</span>
+        </a>
+
+        <ul>
+            <li><a href="index.html#market-section">Market</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="whitepaper.html">White papers</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <a href="#" class="btn">EN</a>
+    </nav>
+
+    <div class="container">
+      <div class="about-container fade-up fade-delay-2">
+
+        <h1>About CryptoPulse</h1>
+
+        <p>
+          CryptoPulse is a modern cryptocurrency tracking web application that provides real-time market data for top digital assets. The platform integrates with the CoinGecko API to deliver accurate pricing, market rankings, and live updates through a clean and responsive user interface.
+        </p>
+
+        <p>
+          The goal of CryptoPulse is to demonstrate efficient API integration, dynamic rendering, and smooth user experience using modern frontend technologies. The application is built with performance, scalability, and visual clarity in mind, making it suitable for both desktop and mobile users.
+        </p>
+
+        <h1>About the Developer</h1>
+
+        <p><strong>Mohammad Kaif</strong></p>
+
+        <p>
+          Hi, I'm Mohammad Kaif, a Web Developer focused on building fast, responsive, and user-friendly web applications using modern JavaScript and React.js.
+        </p>
+
+        <p>
+          I enjoy transforming real-world data into clean visual experiences and continuously improving my skills in frontend architecture, performance optimization, and UI/UX design. CryptoPulse is one of my portfolio projects that showcases API integration, dynamic UI rendering, and modern responsive design principles.
+        </p>
+
+        <p>
+          I am actively seeking opportunities where I can contribute, learn, and grow as a professional developer.
+        </p>
+
+        <a href="index.html" class="back-btn">← Back to Home</a>
+
+      </div>
+    </div>
+</body>
+</html>

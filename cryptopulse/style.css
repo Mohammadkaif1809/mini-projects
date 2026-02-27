@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+:root {
+--bg-overlay-1: rgba(18, 18, 18,95);
+--bg-overlay-2: rgba(9, 9, 11,0.70);
+    
+    --accent-main: #00E5FF;
+    --accent-light: #3282F6;
+    --accent-glow: rgba(0, 229, 255, 0.25);
+    
+    --text-primary: #FAFAFA;
+    --text-secondary: #A1A1AA; 
+    
+   
+    --card-bg: rgba(15, 23, 42, 0.4); 
+    --card-border: rgba(255, 255, 255, 0.08);
+    --shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--bg-overlay-1), var(--bg-overlay-2)), url('/cryptocurrency-img/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-primary);
+    padding: 0 7%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+    z-index: 1000;
+    min-height: 72px;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.brand-name {
+    font-size: 23px;
+    margin-top: 7px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+ul li a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: var(--accent-main);
+}
+
+nav .btn {
+    color: var(--text-primary);
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+nav .btn:hover {
+    border-color: var(--accent-main);
+    color: var(--accent-main);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.content {
+    margin-top: 15%;
+}
+
+.content h1 {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.content h1 span {
+    background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p {
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: var(--text-secondary);
+    max-width: 500px;
+}
+
+.btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: #09090B;
+    background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px var(--accent-glow);
+}
+
+.features {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.features h2 {
+    font-size: 42px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.features h3 {
+    color: var(--accent-main);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.feature-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(14px);
+    padding: 28px;
+    border-radius: 18px;
+    box-shadow: var(--shadow-subtle);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent-main);
+    box-shadow: 0 8px 25px var(--accent-glow);
+}
+
+#market-section {
+    margin-top: 120px;
+    padding-top: 70px;
+}
+
+.market-title {
+    text-align: center;
+    margin-left: 42%;
+    font-size: 42px;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, var(--accent-main), var(--accent-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.coin-list {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding-bottom: 60px;
+    scroll-margin-top: 120px;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    background: var(--card-bg);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--card-border);
+    padding: 18px 22px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-subtle);
+    transition: all 0.3s ease;
+}
+
+.coin:hover {
+    border-color: var(--accent-main);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--accent-glow);
+}
+
+.coin img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.fade-delay-1 { animation-delay: 0.2s; }
+.fade-delay-2 { animation-delay: 0.4s; }
+.fade-delay-3 { animation-delay: 0.6s; }
+.fade-delay-4 { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav .btn {
+        border: 3px solid rgba(255, 255, 255, 0.5);
+        padding: 4px 6px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+
+    .content {
+        margin-top: 140px;
+    }
+
+    .content h1 {
+        line-height: 1.08;
+        font-size: 34px;
+    }
+
+    .content p {
+        margin-bottom: 18px;
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        margin-bottom: 8px;
+        padding: 10px 22px;
+        font-size: 10px;
+    }
+
+    #market-section {
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+
+    .logo {
+        width: 28px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+        letter-spacing: 0.1px;
+    }
+
+    .market-title {
+        font-size: 28px;
+    }
+
+    .coin-list {
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+
+    .coin {
+        padding: 18px 12px;
+        font-size: 13px;
+    }
+
+    .coin img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .features h3 {
+        font-size: 17px;
+    }
+
+    .feature-card p {
+        font-size: 12px;
+    }
+}
