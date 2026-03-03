@@ -79,6 +79,27 @@ Mobile-first layout
 🔗 Live Demo:
 https://mohammadkaif1809.github.io/mini-projects/cryptopulse/
 
+🪨 Rock Paper Scissors
+
+A modern glassmorphism-style Rock Paper Scissors game with smooth animations and responsive design.
+
+✨ Features
+
+Interactive gameplay vs computer
+
+Smooth win/lose animations
+
+Live score tracking
+
+Glassmorphism premium UI
+
+Fully responsive design
+
+Mobile-friendly controls
+
+🔗 Live Demo:
+https://mohammadkaif1809.github.io/mini-projects/rockpaperscissor/
+
 🛠 Tech Stack
 
 HTML5
