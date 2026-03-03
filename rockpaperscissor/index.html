@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="theme-color" content="#0f0f13">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        <h1>Rock Paper Scissors</h1>
+        
+        <ul class="choices">
+            <li id="rock" title="Rock" aria-label="Rock"><i class="fa-solid fa-hand-back-fist"></i></li>
+            <li id="paper" title="Paper"  aria-label="Paper"><i class="fa-solid fa-hand"></i></li>
+            <li id="scissor" title="Scissors"  aria-label="Scissor"><i class="fa-solid fa-hand-scissors"></i></li>
+        </ul>
+
+        <div class="scoreboard">
+            <div class="score-box">
+                <h3 id="playerScore">0</h3>
+                <p>Player</p>
+            </div> 
+            <div class="divider">:</div>
+            <div class="score-box">
+                <h3 id="computerScore">0</h3>
+                <p>Computer</p>
+            </div>
+        </div>
+
+        <h2 class="status"></h2>
+
+        <button id="restart" >Restart</button>
+    </main>
+
+    <div class="credit">Coded by Mohammad Kaif</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
