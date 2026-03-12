@@ -5,41 +5,38 @@ Each project focuses on practicing core concepts and building clean, modern, and
 
 All projects are optimized for mobile, tablet, and desktop screens.
 
-# 🎬 Movie Recommendation App
+🎬 Movie Recommendation App
 
-🔗 **Live Demo:**
-https://mini-projects-sluo-murex.vercel.app/
-
-## 📌 About Project
+📌 About Project
 
 This is a modern **Movie Recommendation Web App** built using React and TMDB API.
 Users can search movies, explore trending content, and discover popular films with a smooth and responsive UI.
 
 The app also integrates **Appwrite backend** to track trending search metrics and improve movie discovery experience.
 
-## 🚀 Features
-
+🚀 Features:
 * 🔍 Search movies in real-time
 * 📈 Trending movies tracking
 * 🎨 Modern responsive UI design
 * ⚡ Fast API based movie fetching
 * ☁️ Backend powered by Appwrite
 
-## 🛠️ Tech Stack
-
+🛠️ Tech Stack:
 * React (Vite)
 * TMDB API
 * Appwrite Database
 * CSS / Modern UI
 * Vercel Deployment
 
+**Live Demo:**
+https://mini-projects-sluo-murex.vercel.app/
+
 ## 🌐 Deployment Note
 
 If the site doesn’t load in some regions, use a VPN due to TMDB API regional restrictions.
 
----
-
 ⭐ Built as part of my **React learning projects collection**
+
 
 🔐 Password Generator
 
