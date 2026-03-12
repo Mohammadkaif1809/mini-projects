@@ -41,7 +41,6 @@ If the site doesn’t load in some regions, use a VPN due to TMDB API regional r
 
 ⭐ Built as part of my **React learning projects collection**
 
-
 🔐 Password Generator
 
 A simple random password generator with copy and show/hide functionality.
