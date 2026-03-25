@@ -31,7 +31,7 @@ Players flip cards to find matching pairs while tracking moves and score.
 * Vercel Deployment
 
 🔗 **Live Demo:**
-https://mindflip-game.vercel.app/
+https://mini-projects-74i3.vercel.app/
 
 ---
 
